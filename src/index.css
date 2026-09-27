@@ -20,3 +20,41 @@
   /* Makes the flower rotate from its base */
   transform-origin: bottom center;
 }
+
+/* Top row of clouds */
+@keyframes cloudsSwayRight {
+  0% {
+    transform: translateX(-20px);
+  }
+
+  50% {
+    transform: translateX(20px);
+  }
+
+  100% {
+    transform: translateX(-20px);
+  }
+}
+
+/* Bottom row of clouds - opposite direction */
+@keyframes cloudsSwayLeft {
+  0% {
+    transform: translateX(20px);
+  }
+
+  50% {
+    transform: translateX(-20px);
+  }
+
+  100% {
+    transform: translateX(20px);
+  }
+}
+
+.cloud-row-one {
+  animation: cloudsSwayRight 7s ease-in-out infinite;
+}
+
+.cloud-row-two {
+  animation: cloudsSwayLeft 7s ease-in-out infinite;
+}
