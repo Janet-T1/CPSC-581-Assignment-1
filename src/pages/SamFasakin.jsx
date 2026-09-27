@@ -8,4 +8,4 @@ function SamFasakin() {
     )
 }
 
-export default SamFasakin
+export default SamFasakin;

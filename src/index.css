@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+@keyframes flowerSway {
+  0% {
+    transform: rotate(-2deg);
+  }
+
+  50% {
+    transform: rotate(2deg);
+  }
+
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+
+.flower-sway {
+  animation: flowerSway 4s ease-in-out infinite;
+
+  /* Makes the flower rotate from its base */
+  transform-origin: bottom center;
+}

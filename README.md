@@ -178,11 +178,6 @@ If your branch already exists locally:
 git checkout your-branch-name
 ```
 
-For example:
-
-```bash
-git checkout janet
-```
 
 If the branch exists on the remote repository but not locally yet:
 
@@ -195,12 +190,6 @@ If you are creating your branch for the first time:
 
 ```bash
 git checkout -b your-branch-name
-```
-
-For example:
-
-```bash
-git checkout -b janet
 ```
 
 ---
@@ -236,12 +225,6 @@ Then edit **only your assigned page**, located under:
 
 ```text
 src/pages/YourName.jsx
-```
-
-or, if your page has its own directory:
-
-```text
-src/pages/YourName/
 ```
 
 Save your changes and check the website in the browser as you work.
