@@ -1,6 +1,8 @@
 import { useEffect } from "react";
-import { tsParticles } from "@tsparticles/engine";
-import { loadSlim } from "@tsparticles/slim";
+import {
+  initializeParticles,
+  tsParticles
+} from "./particlesEngine";
 
 function Stars({ stage }) {
 
@@ -19,7 +21,7 @@ function Stars({ stage }) {
     async function loadStars() {
 
       // Load the tsParticles features
-      await loadSlim(tsParticles);
+      await initializeParticles();
 
       // Create the star particles
       container = await tsParticles.load({
