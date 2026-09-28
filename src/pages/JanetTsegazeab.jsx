@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import flower1 from "../assets/janet/flower1.png";
-import flower2 from "../assets/janet/flower2.png";
-import flower3 from "../assets/janet/flower3.png";
-import flower4 from "../assets/janet/flower4.png";
-import flower5 from "../assets/janet/flower5.png";
+import flower1 from "../assets/janet/Flowers/flower1.png";
+import flower2 from "../assets/janet/Flowers/flower2.png";
+import flower3 from "../assets/janet/Flowers/flower3.png";
+import flower4 from "../assets/janet/Flowers/flower4.png";
+import flower5 from "../assets/janet/Flowers/flower5.png";
 
 import Stars from "../components/Stars";
 
