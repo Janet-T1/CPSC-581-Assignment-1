@@ -58,3 +58,47 @@
 .cloud-row-two {
   animation: cloudsSwayLeft 7s ease-in-out infinite;
 }
+
+@keyframes skyFadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.sky-fade-out {
+    animation: skyFadeOut 1s ease-in-out forwards;
+}
+
+@keyframes flowerHop {
+    0% {
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-30px);
+    }
+
+    40% {
+        transform: translateY(0);
+    }
+
+    60% {
+        transform: translateY(-30px);
+    }
+
+    80% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.flower-hop {
+    animation: flowerHop 0.8s ease-in-out;
+}
