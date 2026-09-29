@@ -13,13 +13,13 @@ import flowerRain3 from "../assets/janet/FlowerRain/flowerRain3.png";
 import flowerRain4 from "../assets/janet/FlowerRain/flowerRain4.png";
 import flowerRain5 from "../assets/janet/FlowerRain/flowerRain5.png";
 
-import cloud1 from "../assets/janet/Clouds/cloud1.png";
-import cloud2 from "../assets/janet/Clouds/cloud2.png";
-import cloud3 from "../assets/janet/Clouds/cloud3.png";
-import cloud4 from "../assets/janet/Clouds/cloud4.png";
-import cloud5 from "../assets/janet/Clouds/cloud5.png";
-import cloud6 from "../assets/janet/Clouds/cloud6.png";
-import cloud7 from "../assets/janet/Clouds/cloud7.png";
+import cloud1 from "../assets/janet/Clouds/Cloud1.png";
+import cloud2 from "../assets/janet/Clouds/Cloud2.png";
+import cloud3 from "../assets/janet/Clouds/Cloud3.png";
+import cloud4 from "../assets/janet/Clouds/Cloud4.png";
+import cloud5 from "../assets/janet/Clouds/Cloud5.png";
+import cloud6 from "../assets/janet/Clouds/Cloud6.png";
+import cloud7 from "../assets/janet/Clouds/Cloud7.png";
 
 import mountains from "../assets/janet/mountains.png";
 import moon from "../assets/janet/moon.png";
