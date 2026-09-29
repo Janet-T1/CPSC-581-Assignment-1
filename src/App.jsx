@@ -2,7 +2,6 @@ import { Routes, Route } from 'react-router-dom'
 
 import Home from './pages/Home'
 import JanetTsegazeab from './pages/JanetTsegazeab'
-import SamFasakin from './pages/SamFasakin'
 import ShamMuhammad from './pages/ShamMuhammad'
 
 function App() {

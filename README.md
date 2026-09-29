@@ -105,7 +105,6 @@ CPSC-581-Assignment-1/
 │   ├── pages/
 │   │   ├── Home.jsx
 │   │   ├── JanetTsegazeab.jsx
-│   │   ├── SamFasakin.jsx
 │   │   └── ShamMuhammad.jsx
 │   │
 │   ├── App.jsx
